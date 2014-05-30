@@ -1,0 +1,131 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+@import 'sass-bootstrap/lib/bootstrap';
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    paddinsg: 0.2em 0;
+}
+
+/* Space out content a bit */
+s {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+    border-bottom: 1px solid #e5e5e5;
+
+    /* Make the masthead heading the same height as the navigation */
+    h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 40px;
+        padding-bottom: 19px; 
+    }
+}
+
+.text-muted a {
+    text-decoration: none
+}
+
+
+/* Custom page footer */
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 1100px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 5px;
+    }
+
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 20px;
+    }
+}
+
+
+.leftarrow {
+    float: left;
+    display: inline;
+    padding: 0px;
+    margin: 190px auto;
+}
+
+.slider {
+    width: 900px;
+    height: 500px;
+    overflow: hidden;
+    margin: 20px 0px 0px 20px;
+    padding: 0px;
+    background-image:url('http://jimpunk.net/Loading/wp-content/uploads/loading1.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline;
+
+}
+
+.slider img {
+    width: 900px;
+    height: 500px;
+    box-shadow: 0px 7px 35px #000000;
+    // display: none;
+}
+
+.rightarrow {
+    float: right;
+    display: inline;
+    padding: 0px;
+    margin: 190px auto;
+}
+
+.shadow {
+    background-image:url('http://cinewest.org/welcome/wp-content/themes/smooth/images/slider-shadow.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 1120px;
+    height: 96px;
+    margin: 0px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
